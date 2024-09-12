@@ -1,47 +1,38 @@
 # 7 Segment Display
 
-In this project, a simulation is designed that projects the keys pressed on the screen. I used the following devices;
+The assignment involves designing a **simulation** that displays the pushed keys on the screen. I employed the subsequent tools:
 
 - 8086 Microprocessor
-- 8255A for I/OK
-- 3X4 KEYPAD
 - 2 74273 LATCHES for address
+- 3X4 KEYPAD
+- 74LS245 DATA BUFFER for data transiving
+- 8255A for I/OK
+- 2 INVERTOR
 - 2(8K) ROM
 - 2(8K) RAM
-- 74LS245 DATA BUFFER for data transiving
-- 2 INVERTOR
-- 4 OR GATES
 - CLOCK GENERATOR CIRCUIT
+- 4 OR GATES
 
 
 
- *Program files and project created with **Proteus software and emu8086**. They should be installed for execute the files.*
+ **Proteus software** and **emu8086** were used to construct the program files and project. Installing them is necessary in order to run the files.
 
-
-*Note: I have prepared  **explanation video** to understanding easly of my project
-https://disk.yandex.com.tr/i/JIeUWcyEZZQnwA*
-
-*Note: I have prepared  **paper** with my teammate, you can reach it with below the link
-https://drive.google.com/file/d/1O5b0ig5nBFmoD8ZtS5_RMRp85gwNH6x4/view?usp=sharing*
 
 
 
 
 ## Screenshots
 
-![Alt Text](https://www.linkpicture.com/q/ss_2_1.png)
+![Alt Text](shot1.png)
 
 
+![Alt Text](shot2.png)
 
 
-![Alt Text](https://www.linkpicture.com/q/ss_3_1.png)
+![Alt Text](shot3.png)
 
 
-
-![Alt Text](https://www.linkpicture.com/q/ss_4_1.png)
-
-
-![Alt Text](https://www.linkpicture.com/q/ss_1_1.png)
+![Alt Text](shot4.png)
 
 
 
@@ -52,25 +43,22 @@ https://drive.google.com/file/d/1O5b0ig5nBFmoD8ZtS5_RMRp85gwNH6x4/view?usp=shari
 
 Clone the project
 
-```bash
-  git clone https://github.com/egemengulpinar/7-Segment-Display.git
-```
 
-*Follow the ***explanation video***, then select same option and setting to execute project.*
+*Select the same option and setting to carry out the project after watching the ***explanation video***.
 
 
-- Open emu8086 and import `8086_Memory.exe.asm` file. Save assembly file on emu8086 with ***.exe*** file format.
+- Load the `8086_Memory.exe.asm} file into emu8086. Use the ***.exe*** file format to save assembly files on emu8086.
 
-- Open `Proteus Software` and import `7  segment display(17-155-014).pdsprj` project file.
+- Import the project file named "7 segment display(17-155-014).pdsprj" into Proteus Software.
 
+- Click the 8086 program, choose the Proteus software's "Edit Component" option, open the prior ***.exe*** file, and click ***OK***.
 
-- Click 8086 program and select `"Edit Component"` settings on the Proteus software, open previous ***.exe*** file and click ***OK***
+- Next, in Proteus Software, click the ***start*** button on the project diagram.
 
-- Then click ***start*** button on project diagram in Proteus Software
+- The numbers can be altered using the {KEYPAD} section.
 
-- You can change the numbers with  `KEYPAD` part.
+As soon as the application runs and numbers are pressed, they appear on the screen.
 
-When the program was executed and numbers are pressed, they will be displayed on the screen.
 
 
 
